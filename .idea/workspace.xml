@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33ca6795-80d1-43b1-be54-e922bf50954a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Attacks/Attack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Attacks/Axe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Attacks/Club.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Attacks/IWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Attacks/Sword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Fighter/Barbarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Fighter/Dwarf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Fighter/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Fighter/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Orc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Troll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fighter/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fighter/Barbarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fighter/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fighter/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fighter/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fighter/Knight.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,13 +76,33 @@
       <option name="presentableId" value="Default" />
       <updated>1582196322776</updated>
     </task>
+    <task id="LOCAL-00001" summary="Attacks set up">
+      <created>1582198501711</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582198501711</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Attacks set up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Attacks set up" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="453" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1582198810072">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="453" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1582198810072" />
     <state x="378" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582198142830">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1582198142830" />
+    <state x="160" y="3" key="CommitChangelistDialog2" timestamp="1582198501417">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="160" y="3" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1582198501417" />
     <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582198482701">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
