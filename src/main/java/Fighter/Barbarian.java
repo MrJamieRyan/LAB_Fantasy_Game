@@ -2,23 +2,30 @@ package Fighter;
 
 import Attacks.IWeapon;
 
-public abstract class Barbarian{
+public class Barbarian {
 
     public String name;
     public int health;
-    public IWeapon Club;
+    public IWeapon weapon;
 
-    public Barbarian(String name, int health){
-        this.name = "Conan";
-        this.health = 150;
+    public Barbarian(String name, int health, String weapon) {
+        this.name = name;
+        this.health = health;
     }
 
-    public String getName(){
+    public String getName() {
         return this.name;
-    };
-    public int getHealth(){
-        return this.health;
-    };
-    public IWeapon getWeapon(){
-        return this.Club;
     }
+
+    ;
+
+    public int getHealth() {
+        return this.health;
+    }
+
+    ;
+
+    public IWeapon getWeapon(IWeapon weapon){
+        return weapon;
+    }
+}

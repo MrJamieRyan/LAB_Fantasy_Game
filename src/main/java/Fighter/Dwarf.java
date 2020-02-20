@@ -2,23 +2,27 @@ package Fighter;
 
 import Attacks.IWeapon;
 
-public abstract class Dwarf{
+public class Dwarf {
 
     public String name;
     public int health;
-    public IWeapon Axe;
+    public IWeapon weapon;
 
-    public Knight(String name, int health){
-        this.name = "Gimly";
-        this.health = 50;
+    public Dwarf(String name, int health, String weapon) {
+        this.name = name;
+        this.health = health;
+        this.weapon = weapon;
     }
 
-    public String getName(){
+    public String getName() {
         return this.name;
-    };
-    public int getHealth(){
-        return this.health;
-    };
-    public IWeapon getWeapon(){
-        return this.Axe;
     }
+
+    public int getHealth() {
+        return this.health;
+    }
+
+    public IWeapon getWeapon(IWeapon weapon){
+        return weapon;
+    }
+}

@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33ca6795-80d1-43b1-be54-e922bf50954a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FighterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Attacks/Axe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Attacks/Axe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Attacks/Club.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Attacks/Club.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Attacks/IWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Attacks/IWeapon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Fighter/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fighter/Barbarian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Fighter/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fighter/Dwarf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Fighter/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fighter/Knight.java" afterDir="false" />
@@ -53,6 +57,44 @@
       <recent name="" />
     </key>
   </component>
+  <component name="RunManager" selected="JUnit.FighterTest.getDwarfWeapon">
+    <configuration name="FighterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy Game LAB" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FighterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FighterTest.getDwarfName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy Game LAB" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FighterTest" />
+      <option name="METHOD_NAME" value="getDwarfName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FighterTest.getDwarfWeapon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Fantasy Game LAB" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FighterTest" />
+      <option name="METHOD_NAME" value="getDwarfWeapon" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FighterTest.getDwarfWeapon" />
+        <item itemvalue="JUnit.FighterTest" />
+        <item itemvalue="JUnit.FighterTest.getDwarfName" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -83,29 +125,80 @@
       <option name="project" value="LOCAL" />
       <updated>1582198501711</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Players set up">
+      <created>1582199382398</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582199382398</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Attacks set up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Attacks set up" />
+    <MESSAGE value="Players set up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Players set up" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1582198810072">
+    <state x="453" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1582205327662">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1582198810072" />
+    <state x="453" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1582205327662" />
     <state x="378" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582198142830">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1582198142830" />
-    <state x="160" y="3" key="CommitChangelistDialog2" timestamp="1582198501417">
+    <state x="160" y="3" key="CommitChangelistDialog2" timestamp="1582199382199">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="160" y="3" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1582198501417" />
+    <state x="160" y="3" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1582199382199" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1582205073155">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1582205073155" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1582205073153">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1582205073153" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1582205073152">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1582205073152" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1582205073154">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1582205073154" />
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1582204397828">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1582204397828" />
+    <state width="1238" height="263" key="GridCell.Tab.1.center" timestamp="1582204397827">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1582204397827" />
+    <state width="1238" height="263" key="GridCell.Tab.1.left" timestamp="1582204397826">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1582204397826" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right" timestamp="1582204397828">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1582204397828" />
     <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582198482701">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1582198482701" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/FighterTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -2,15 +2,15 @@ package Fighter;
 
 import Attacks.IWeapon;
 
-public abstract class Knight{
+public class Knight{
 
     public String name;
     public int health;
-    public IWeapon Sword;
+    public IWeapon weapon;
 
-    public Knight(String name, int health){
-        this.name = "Lancelot";
-        this.health = 100;
+    public Knight(String name, int health, String weapon){
+        this.name = name;
+        this.health = health;
     }
 
     public String getName(){
@@ -19,8 +19,8 @@ public abstract class Knight{
     public int getHealth(){
         return this.health;
     };
-    public IWeapon getWeapon(){
-        return this.Sword;
+    public IWeapon getWeapon(IWeapon weapon){
+        return weapon;
     }
 
 
