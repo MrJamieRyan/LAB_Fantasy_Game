@@ -1,10 +1,22 @@
 package Attacks;
 
-import java.util.ArrayList;
+public class Sword implements IWeapon{
 
+    String name;
+    int damage;
 
-public class Sword implements IWeapon {
-    public int damage(ArrayList<Attack> attacks, int totalDamage){
-        return totalDamage = 5;
+    public Sword(String name, int damage) {
+        this.name = name;
+        this.damage = damage;
     }
+
+    public double attack(double damage){
+         return this.damage += 10;
+    }
+
+    public double getDamage() {
+        return this.damage;
+    }
+
+
 }

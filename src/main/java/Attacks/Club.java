@@ -1,10 +1,20 @@
 package Attacks;
 
-import java.util.ArrayList;
+public  class Club implements IWeapon {
 
+    String name;
+    int damage;
 
-public abstract class Club implements IWeapon {
-    public int damage(ArrayList<Attack> attacks, int totalDamage){
-        return totalDamage = 8;
+    public Club(String name, int damage) {
+        this.name = name;
+        this.damage = damage;
+    }
+
+    public double attack(double damage){
+        return this.damage += 10;
+    }
+
+    public double getDamage() {
+        return this.damage;
     }
 }
